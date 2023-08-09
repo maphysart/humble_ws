@@ -1,11 +1,13 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
-	"dockerFile": "Dockerfile",
-	"build": {
-		"args": {
-			"WORKSPACE": "${containerWorkspaceFolder}"
-		}
-	},
+	// "dockerFile": "Dockerfile",
+	// "build": {
+	// 	"args": {
+	// 		"WORKSPACE": "${containerWorkspaceFolder}"
+	// 	}
+	// },
+        "name": "bookros2-dev",
+        "image": "humble:bookros2",
 	"remoteUser": "ros",
 	"runArgs": [
                 "--rm",
