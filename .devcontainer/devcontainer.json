@@ -7,7 +7,7 @@
 	// 	}
 	// },
         "name": "bookros2-dev",
-        "image": "humble:bookros2",
+        "image": "humble/bookros2:ver2",
 	"remoteUser": "ros",
 	"runArgs": [
                 "--rm",
